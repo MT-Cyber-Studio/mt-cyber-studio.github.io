@@ -143,3 +143,9 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Specific gitingore declarations
+# ---------- Jekyll.gitignore ----------
+_site
+.sass-cache
+.jekyll-metadata
