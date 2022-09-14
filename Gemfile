@@ -8,8 +8,12 @@ ruby "2.7.6"
 gem "jekyll", "~> 3.9.0"
 
 # define & group the additional packages that support GH pages & Jekyll, REF: https://bundler.io/man/gemfile.5.html#GROUPS
-gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-github-metadata"
-gem 'jekyll-email-protect'
-gem "jekyll-octicons"
-gem "jemoji"
+group :jekyll_plugins do
+    gem "jekyll-feed"
+    gem "jekyll-seo-tag"
+    gem "github-pages"
+    gem "jekyll-github-metadata"
+    gem "jekyll-email-protect"
+    gem "jekyll-octicons"
+    gem "jemoji"
+  end
