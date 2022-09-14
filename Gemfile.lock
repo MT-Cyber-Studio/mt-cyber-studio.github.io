@@ -263,8 +263,10 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.9.0)
   jekyll-email-protect
+  jekyll-feed
   jekyll-github-metadata
   jekyll-octicons
+  jekyll-seo-tag
   jemoji
 
 RUBY VERSION
