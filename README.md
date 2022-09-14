@@ -1,2 +1,2 @@
-# MT-Cybersecurity-Studio
-The root repo for MT Cybersecurity Studio
+# MT Cyber Studio 
+The root repo for MT Cyber Studio
