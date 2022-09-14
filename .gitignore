@@ -13,6 +13,9 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Containers Development Environments
+.devcontainer 
+
 # ---------- Linux.gitignore ----------
 *~
 
